@@ -1,0 +1,14 @@
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 $container-padding;
+
+  @media (min-width: $device-md) {
+    padding: 0 $container-large-padding;
+  }
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+}

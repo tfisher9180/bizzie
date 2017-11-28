@@ -1,0 +1,20 @@
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
+	color: $color-navy;
+	font-family: $font__main;
+	font-weight: $font-weight-normal;
+	@include font-size(0.8);
+	line-height: $font__line-height-body;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+}
+
+@import "headings";
+
+@import "copy";

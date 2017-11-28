@@ -1,0 +1,14 @@
+a {
+	color: $color-primary;
+	text-decoration: none;
+
+	&:visited {
+		color: $color-primary;
+	}
+	&:hover,
+	&:focus,
+	&:active {
+		color: $color__link-hover;
+		outline: 0;
+	}
+}
